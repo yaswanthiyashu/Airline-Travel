@@ -1,0 +1,530 @@
+{
+  "flights": [
+    {
+      "flight_id": "FL123",
+      "airline": "Airline A",
+      "departure_time": "2023-12-22T08:00:00",
+      "arrival_time": "2023-12-22T10:30:00",
+      "start_destination": "City X",
+      "end_destination": "City Y",
+      "total_journey": "2h 30m",
+      "fare": 150.0
+    },
+    {
+      "flight_id": "FL456",
+      "airline": "Airline BB",
+      "departure_time": "2023-12-22T09:30:00",
+      "arrival_time": "2023-12-22T12:00:00",
+      "start_destination": "City X",
+      "end_destination": "City Y",
+      "total_journey": "2h 30m",
+      "fare": 180.0
+    },
+    {
+      "flight_id": "FL457",
+      "airline": "Airline BC",
+      "departure_time": "2023-12-22T09:30:00",
+      "arrival_time": "2023-12-22T12:00:00",
+      "start_destination": "City X",
+      "end_destination": "City Y",
+      "total_journey": "2h 30m",
+      "fare": 180.0
+    },
+    {
+      "flight_id": "FL458",
+      "airline": "Airline BD",
+      "departure_time": "2023-12-22T09:30:00",
+      "arrival_time": "2023-12-22T12:00:00",
+      "start_destination": "City X",
+      "end_destination": "City Y",
+      "total_journey": "2h 30m",
+      "fare": 180.0
+    },
+    {
+      "flight_id": "FL782",
+      "airline": "Airline C",
+      "departure_time": "2023-12-22T10:00:00",
+      "arrival_time": "2023-12-22T12:30:00",
+      "start_destination": "City X",
+      "end_destination": "City Y",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL783",
+      "airline": "Airline D",
+      "departure_time": "2023-12-22T10:00:00",
+      "arrival_time": "2023-12-22T12:30:00",
+      "start_destination": "City X",
+      "end_destination": "City Y",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL784",
+      "airline": "Airline E",
+      "departure_time": "2023-12-22T10:00:00",
+      "arrival_time": "2023-12-22T12:30:00",
+      "start_destination": "City X",
+      "end_destination": "City Y",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL785",
+      "airline": "Airline F",
+      "departure_time": "2023-12-22T10:00:00",
+      "arrival_time": "2023-12-22T12:30:00",
+      "start_destination": "City X",
+      "end_destination": "City Y",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL786",
+      "airline": "Airline G",
+      "departure_time": "2023-12-22T10:00:00",
+      "arrival_time": "2023-12-22T12:30:00",
+      "start_destination": "City X",
+      "end_destination": "City Y",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL787",
+      "airline": "Airline H",
+      "departure_time": "2023-12-22T10:00:00",
+      "arrival_time": "2023-12-22T12:30:00",
+      "start_destination": "City X",
+      "end_destination": "City Y",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL788",
+      "airline": "Airline I",
+      "departure_time": "2023-12-22T10:00:00",
+      "arrival_time": "2023-12-22T12:30:00",
+      "start_destination": "City X",
+      "end_destination": "City Y",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL789",
+      "airline": "Airline J",
+      "departure_time": "2023-12-22T10:00:00",
+      "arrival_time": "2023-12-22T12:30:00",
+      "start_destination": "KERALA",
+      "end_destination": "BEN",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    }
+  ],
+  "cheapest_flight": [
+    {
+      "flight_id": "FL789",
+      "airline": "Airline C",
+      "departure_time": "6:00",
+      "arrival_time": "8:30",
+      "start_destination": "CHENNAI",
+      "end_destination": "KOL",
+      "total_journey": "2h 30m",
+      "fare": 100.0
+    },
+    {
+      "flight_id": "FL458",
+      "airline": "Airline BD",
+      "departure_time": "11:00",
+      "arrival_time": "1:30",
+      "start_destination": "BEN",
+      "end_destination": "VIZAG",
+      "total_journey": "2h 30m",
+      "fare": 80.0
+    },
+    {
+      "flight_id": "FL789",
+      "airline": "Airline C",
+      "departure_time": "6:00",
+      "arrival_time": "8:30",
+      "start_destination": "CHENNAI",
+      "end_destination": "KOL",
+      "total_journey": "2h 30m",
+      "fare": 100.0
+    },
+    {
+      "flight_id": "FL458",
+      "airline": "Airline BD",
+      "departure_time": "11:00",
+      "arrival_time": "1:30",
+      "start_destination": "BEN",
+      "end_destination": "VIZAG",
+      "total_journey": "2h 30m",
+      "fare": 80.0
+    },
+    {
+      "flight_id": "FL789",
+      "airline": "Airline C",
+      "departure_time": "6:00",
+      "arrival_time": "8:30",
+      "start_destination": "CHENNAI",
+      "end_destination": "KOL",
+      "total_journey": "2h 30m",
+      "fare": 100.0
+    },
+    {
+      "flight_id": "FL458",
+      "airline": "Airline BD",
+      "departure_time": "11:00",
+      "arrival_time": "1:30",
+      "start_destination": "BEN",
+      "end_destination": "VIZAG",
+      "total_journey": "2h 30m",
+      "fare": 80.0
+    },
+    {
+      "flight_id": "FL789",
+      "airline": "Airline C",
+      "departure_time": "6:00",
+      "arrival_time": "8:30",
+      "start_destination": "CHENNAI",
+      "end_destination": "KOL",
+      "total_journey": "2h 30m",
+      "fare": 100.0
+    },
+    {
+      "flight_id": "FL458",
+      "airline": "Airline BD",
+      "departure_time": "11:00",
+      "arrival_time": "1:30",
+      "start_destination": "BEN",
+      "end_destination": "VIZAG",
+      "total_journey": "2h 30m",
+      "fare": 80.0
+    },
+    {
+      "flight_id": "FL789",
+      "airline": "Airline C",
+      "departure_time": "6:00",
+      "arrival_time": "8:30",
+      "start_destination": "CHENNAI",
+      "end_destination": "KOL",
+      "total_journey": "2h 30m",
+      "fare": 100.0
+    },
+    {
+      "flight_id": "FL458",
+      "airline": "Airline BD",
+      "departure_time": "11:00",
+      "arrival_time": "1:30",
+      "start_destination": "BEN",
+      "end_destination": "VIZAG",
+      "total_journey": "2h 30m",
+      "fare": 80.0
+    },
+    {
+      "flight_id": "FL789",
+      "airline": "Airline C",
+      "departure_time": "6:00",
+      "arrival_time": "8:30",
+      "start_destination": "CHENNAI",
+      "end_destination": "KOL",
+      "total_journey": "2h 30m",
+      "fare": 100.0
+    },
+    {
+      "flight_id": "FL458",
+      "airline": "Airline BD",
+      "departure_time": "11:00",
+      "arrival_time": "1:30",
+      "start_destination": "BEN",
+      "end_destination": "VIZAG",
+      "total_journey": "2h 30m",
+      "fare": 80.0
+    }
+  ],
+  "best_flight": [
+    {
+      "flight_id": "FL123",
+      "airline": "Airline A",
+      "departure_time": "00:00",
+      "arrival_time": "7:30",
+      "start_destination": "HYD",
+      "end_destination": "DEL",
+      "total_journey": "7h 30m",
+      "fare": 150.0
+    },
+    {
+      "flight_id": "FL456",
+      "airline": "Airline BB",
+      "departure_time": "3:00",
+      "arrival_time": "5:30",
+      "start_destination": "GT",
+      "end_destination": "CHENNAI",
+      "total_journey": "2h 30m",
+      "fare": 180.0
+    },
+    {
+      "flight_id": "FL457",
+      "airline": "Airline BC",
+      "departure_time": "10:00",
+      "arrival_time": "12:30",
+      "start_destination": "TIRIPATHI",
+      "end_destination": "VZY",
+      "total_journey": "2h 30m",
+      "fare": 180.0
+    },
+    {
+      "flight_id": "FL789",
+      "airline": "Airline J",
+      "departure_time": "4:00",
+      "arrival_time": "8:30",
+      "start_destination": "LOCKNOW",
+      "end_destination": "HYD",
+      "total_journey": "4h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL123",
+      "airline": "Airline A",
+      "departure_time": "00:00",
+      "arrival_time": "7:30",
+      "start_destination": "HYD",
+      "end_destination": "DEL",
+      "total_journey": "7h 30m",
+      "fare": 150.0
+    },
+    {
+      "flight_id": "FL456",
+      "airline": "Airline BB",
+      "departure_time": "3:00",
+      "arrival_time": "5:30",
+      "start_destination": "GT",
+      "end_destination": "CHENNAI",
+      "total_journey": "2h 30m",
+      "fare": 180.0
+    },
+    {
+      "flight_id": "FL457",
+      "airline": "Airline BC",
+      "departure_time": "10:00",
+      "arrival_time": "12:30",
+      "start_destination": "TIRIPATHI",
+      "end_destination": "VZY",
+      "total_journey": "2h 30m",
+      "fare": 180.0
+    },
+    {
+      "flight_id": "FL789",
+      "airline": "Airline J",
+      "departure_time": "4:00",
+      "arrival_time": "8:30",
+      "start_destination": "LOCKNOW",
+      "end_destination": "HYD",
+      "total_journey": "4h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL123",
+      "airline": "Airline A",
+      "departure_time": "00:00",
+      "arrival_time": "7:30",
+      "start_destination": "HYD",
+      "end_destination": "DEL",
+      "total_journey": "7h 30m",
+      "fare": 150.0
+    },
+    {
+      "flight_id": "FL456",
+      "airline": "Airline BB",
+      "departure_time": "3:00",
+      "arrival_time": "5:30",
+      "start_destination": "GT",
+      "end_destination": "CHENNAI",
+      "total_journey": "2h 30m",
+      "fare": 180.0
+    },
+    {
+      "flight_id": "FL457",
+      "airline": "Airline BC",
+      "departure_time": "10:00",
+      "arrival_time": "12:30",
+      "start_destination": "TIRIPATHI",
+      "end_destination": "VZY",
+      "total_journey": "2h 30m",
+      "fare": 180.0
+    },
+    {
+      "flight_id": "FL789",
+      "airline": "Airline J",
+      "departure_time": "4:00",
+      "arrival_time": "8:30",
+      "start_destination": "LOCKNOW",
+      "end_destination": "HYD",
+      "total_journey": "4h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL123",
+      "airline": "Airline A",
+      "departure_time": "00:00",
+      "arrival_time": "7:30",
+      "start_destination": "HYD",
+      "end_destination": "DEL",
+      "total_journey": "7h 30m",
+      "fare": 150.0
+    },
+    {
+      "flight_id": "FL456",
+      "airline": "Airline BB",
+      "departure_time": "3:00",
+      "arrival_time": "5:30",
+      "start_destination": "GT",
+      "end_destination": "CHENNAI",
+      "total_journey": "2h 30m",
+      "fare": 180.0
+    },
+    {
+      "flight_id": "FL457",
+      "airline": "Airline BC",
+      "departure_time": "10:00",
+      "arrival_time": "12:30",
+      "start_destination": "TIRIPATHI",
+      "end_destination": "VZY",
+      "total_journey": "2h 30m",
+      "fare": 180.0
+    },
+    {
+      "flight_id": "FL789",
+      "airline": "Airline J",
+      "departure_time": "4:00",
+      "arrival_time": "8:30",
+      "start_destination": "LOCKNOW",
+      "end_destination": "HYD",
+      "total_journey": "4h 30m",
+      "fare": 120.0
+    }
+  ],
+  "quickest_flight": [
+    {
+      "flight_id": "FL123",
+      "airline": "Airline A",
+      "departure_time": "5:00",
+      "arrival_time": "7:30",
+      "start_destination": "KOL",
+      "end_destination": "BEN",
+      "total_journey": "2h 30m",
+      "fare": 150.0
+    },
+    {
+      "flight_id": "FL782",
+      "airline": "Airline C",
+      "departure_time": "10:00",
+      "arrival_time": "12:00",
+      "start_destination": "DEL",
+      "end_destination": "MUMBAI",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL783",
+      "airline": "Airline D",
+      "departure_time": "12:05",
+      "arrival_time": "14:30",
+      "start_destination": "Vizag",
+      "end_destination": "HYD",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL123",
+      "airline": "Airline A",
+      "departure_time": "5:00",
+      "arrival_time": "7:30",
+      "start_destination": "KOL",
+      "end_destination": "BEN",
+      "total_journey": "2h 30m",
+      "fare": 150.0
+    },
+    {
+      "flight_id": "FL782",
+      "airline": "Airline C",
+      "departure_time": "10:00",
+      "arrival_time": "12:00",
+      "start_destination": "DEL",
+      "end_destination": "MUMBAI",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL783",
+      "airline": "Airline D",
+      "departure_time": "12:05",
+      "arrival_time": "14:30",
+      "start_destination": "Vizag",
+      "end_destination": "HYD",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL123",
+      "airline": "Airline A",
+      "departure_time": "5:00",
+      "arrival_time": "7:30",
+      "start_destination": "KOL",
+      "end_destination": "BEN",
+      "total_journey": "2h 30m",
+      "fare": 150.0
+    },
+    {
+      "flight_id": "FL782",
+      "airline": "Airline C",
+      "departure_time": "10:00",
+      "arrival_time": "12:00",
+      "start_destination": "DEL",
+      "end_destination": "MUMBAI",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL783",
+      "airline": "Airline D",
+      "departure_time": "12:05",
+      "arrival_time": "14:30",
+      "start_destination": "Vizag",
+      "end_destination": "HYD",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL123",
+      "airline": "Airline A",
+      "departure_time": "5:00",
+      "arrival_time": "7:30",
+      "start_destination": "KOL",
+      "end_destination": "BEN",
+      "total_journey": "2h 30m",
+      "fare": 150.0
+    },
+    {
+      "flight_id": "FL782",
+      "airline": "Airline C",
+      "departure_time": "10:00",
+      "arrival_time": "12:00",
+      "start_destination": "DEL",
+      "end_destination": "MUMBAI",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    },
+    {
+      "flight_id": "FL783",
+      "airline": "Airline D",
+      "departure_time": "12:05",
+      "arrival_time": "14:30",
+      "start_destination": "Vizag",
+      "end_destination": "HYD",
+      "total_journey": "2h 30m",
+      "fare": 120.0
+    }
+  ]
+}
